@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="2.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ClashCalculator.BusinessLayer\ClashCalculator.Services.csproj" />
+    <ProjectReference Include="..\ClashCalculator.Domain\ClashCalculator.Domain.csproj" />
+    <ProjectReference Include="..\ClashCalculator.IService\ClashCalculator.Services.Contract.csproj" />
+    <ProjectReference Include="..\ClashCalculator\ClashCalculator.Database.csproj" />
+  </ItemGroup>
+
+</Project>

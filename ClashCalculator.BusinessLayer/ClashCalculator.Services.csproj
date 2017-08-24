@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <AssemblyName>CocCalculator.Business</AssemblyName>
+    <RootNamespace>CocCalculator.Business</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ClashCalculator.IService\ClashCalculator.Services.Contract.csproj" />
+  </ItemGroup>
+
+</Project>
