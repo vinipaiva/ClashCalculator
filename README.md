@@ -1,4 +1,4 @@
-# webapi-core-starterkit
+# Clash Calculator using webapi-core-starterkit
 
 This project intended to be a starter kit for a Asp.net Core MVC WebApi project. It will be composed by a layered architecture 
 and it will have pretty much everything that you would want already set for you to start your development.
