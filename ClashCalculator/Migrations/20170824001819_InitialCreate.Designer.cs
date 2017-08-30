@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace ClashCalculator.Database.Migrations
 {
-    [DbContext(typeof(CocCalculatorContext))]
+    [DbContext(typeof(ClashCalculatorContext))]
     [Migration("20170824001819_InitialCreate")]
     partial class InitialCreate
     {

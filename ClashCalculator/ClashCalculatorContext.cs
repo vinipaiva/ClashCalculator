@@ -3,9 +3,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace ClashCalculator.Database
 {
-    public class CocCalculatorContext : DbContext
+    public class ClashCalculatorContext : DbContext
     {
-        public CocCalculatorContext(DbContextOptions<CocCalculatorContext> options)
+        public ClashCalculatorContext(DbContextOptions<ClashCalculatorContext> options)
             : base(options)
         {
             

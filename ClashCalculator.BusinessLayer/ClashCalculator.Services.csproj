@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
-    <AssemblyName>CocCalculator.Business</AssemblyName>
-    <RootNamespace>CocCalculator.Business</RootNamespace>
+    <AssemblyName>ClashCalculator.Business</AssemblyName>
+    <RootNamespace>ClashCalculator.Business</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

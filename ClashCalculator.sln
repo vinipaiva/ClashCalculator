@@ -23,6 +23,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{1B
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClashCalculator.Database", "ClashCalculator\ClashCalculator.Database.csproj", "{62CF20F8-F7B5-4D7A-A4BB-41347EC4E910}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClashCalculator.Aggregate", "ClashCalculator.Aggregate\ClashCalculator.Aggregate.csproj", "{33747385-45A4-41B7-A67A-70BB3765DF26}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,6 +55,10 @@ Global
 		{62CF20F8-F7B5-4D7A-A4BB-41347EC4E910}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{62CF20F8-F7B5-4D7A-A4BB-41347EC4E910}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{62CF20F8-F7B5-4D7A-A4BB-41347EC4E910}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33747385-45A4-41B7-A67A-70BB3765DF26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33747385-45A4-41B7-A67A-70BB3765DF26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33747385-45A4-41B7-A67A-70BB3765DF26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33747385-45A4-41B7-A67A-70BB3765DF26}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -62,6 +68,7 @@ Global
 		{73A2EFE2-8AB0-4A46-8B08-24C1A04AA4F9} = {E3424B23-EF7A-4748-9CBC-A6449F06906D}
 		{F7BEC0E2-EEB4-446B-8C7F-7FB247B7C971} = {5633E1F9-EFEC-4E36-9934-E5FC59F59668}
 		{62CF20F8-F7B5-4D7A-A4BB-41347EC4E910} = {1B38880D-E0B3-4705-93C1-534EAE4A147D}
+		{33747385-45A4-41B7-A67A-70BB3765DF26} = {5633E1F9-EFEC-4E36-9934-E5FC59F59668}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {572571C5-D133-41AD-B8D2-D74B67D7C74C}

@@ -3,7 +3,7 @@
     public enum BuildingType
     {
         Resource,
-        Army,
+        Offense,
         Defense,
         Other
     }

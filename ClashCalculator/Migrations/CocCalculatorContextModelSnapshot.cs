@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Metadata;
 
 namespace ClashCalculator.Database.Migrations
 {
-    [DbContext(typeof(CocCalculatorContext))]
+    [DbContext(typeof(ClashCalculatorContext))]
     partial class CocCalculatorContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
