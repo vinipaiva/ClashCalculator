@@ -1,5 +1,5 @@
 ﻿using System.IO;
-using CocCalculator.Core;
+using ClashCalculator.Core;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -55,7 +55,7 @@ namespace ClashCalculator.WebApi
             app.UseSwagger();
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Core.CocCalculatorKit V1");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Core.ClashCalculatorKit V1");
             });
             app.UseMvcWithDefaultRoute();
         }

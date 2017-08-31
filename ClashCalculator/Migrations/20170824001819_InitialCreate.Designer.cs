@@ -18,7 +18,7 @@ namespace ClashCalculator.Database.Migrations
                 .HasAnnotation("ProductVersion", "2.0.0-rtm-26452")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("CocCalculator.Domain.Building", b =>
+            modelBuilder.Entity("ClashCalculator.Domain.Building", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
@@ -37,7 +37,7 @@ namespace ClashCalculator.Database.Migrations
                     b.ToTable("Buildings");
                 });
 
-            modelBuilder.Entity("CocCalculator.Domain.BuildingUpgrade", b =>
+            modelBuilder.Entity("ClashCalculator.Domain.BuildingUpgrade", b =>
                 {
                     b.Property<int>("BuildingId");
 
@@ -56,7 +56,7 @@ namespace ClashCalculator.Database.Migrations
                     b.ToTable("BuildingUpgrades");
                 });
 
-            modelBuilder.Entity("CocCalculator.Domain.Troop", b =>
+            modelBuilder.Entity("ClashCalculator.Domain.Troop", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
@@ -75,7 +75,7 @@ namespace ClashCalculator.Database.Migrations
                     b.ToTable("Troops");
                 });
 
-            modelBuilder.Entity("CocCalculator.Domain.TroopResearch", b =>
+            modelBuilder.Entity("ClashCalculator.Domain.TroopResearch", b =>
                 {
                     b.Property<int>("TroopId");
 
@@ -100,17 +100,17 @@ namespace ClashCalculator.Database.Migrations
                     b.ToTable("TroopResearches");
                 });
 
-            modelBuilder.Entity("CocCalculator.Domain.BuildingUpgrade", b =>
+            modelBuilder.Entity("ClashCalculator.Domain.BuildingUpgrade", b =>
                 {
-                    b.HasOne("CocCalculator.Domain.Building", "Building")
+                    b.HasOne("ClashCalculator.Domain.Building", "Building")
                         .WithMany("BuildingUpgrades")
                         .HasForeignKey("BuildingId")
                         .OnDelete(DeleteBehavior.Cascade);
                 });
 
-            modelBuilder.Entity("CocCalculator.Domain.TroopResearch", b =>
+            modelBuilder.Entity("ClashCalculator.Domain.TroopResearch", b =>
                 {
-                    b.HasOne("CocCalculator.Domain.Troop", "Troop")
+                    b.HasOne("ClashCalculator.Domain.Troop", "Troop")
                         .WithMany("TroopResearches")
                         .HasForeignKey("TroopId")
                         .OnDelete(DeleteBehavior.Cascade);

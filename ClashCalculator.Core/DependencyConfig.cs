@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace CocCalculator.Core
+namespace ClashCalculator.Core
 {
     public static class DependencyConfig
     {
