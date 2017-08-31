@@ -3,6 +3,7 @@
     public enum ResourceType
     {
         Gold,
-        Elixir
+        Elixir,
+        DarkElixir
     }
 }

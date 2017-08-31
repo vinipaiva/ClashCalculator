@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using ClashCalculator.Database.Seed;
 
 namespace ClashCalculator.Database
 {
@@ -9,6 +10,8 @@ namespace ClashCalculator.Database
         public static void Initialize(ClashCalculatorContext context)
         {
             context.Database.EnsureCreated();
+
+            BuildingSeed.Seed(context);
             
         }
     }
