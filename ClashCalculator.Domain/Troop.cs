@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
+using ClashCalculator.Common.Enum;
 using ClashCalculator.Domain.Abstract;
-using ClashCalculator.Domain.Enum;
 
 namespace ClashCalculator.Domain
 {

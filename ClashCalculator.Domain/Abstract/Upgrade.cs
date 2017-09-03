@@ -1,6 +1,6 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations.Schema;
-using ClashCalculator.Domain.Enum;
+using ClashCalculator.Common.Enum;
 
 namespace ClashCalculator.Domain.Abstract
 {

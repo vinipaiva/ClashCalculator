@@ -1,5 +1,5 @@
-﻿using ClashCalculator.Domain.Abstract;
-using ClashCalculator.Domain.Enum;
+﻿using ClashCalculator.Common.Enum;
+using ClashCalculator.Domain.Abstract;
 
 namespace ClashCalculator.Domain
 {

@@ -1,4 +1,4 @@
-﻿namespace ClashCalculator.Domain.Enum
+﻿namespace ClashCalculator.Common.Enum
 {
     public enum ResourceType
     {

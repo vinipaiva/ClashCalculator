@@ -1,4 +1,4 @@
-﻿using ClashCalculator.Domain.Enum;
+﻿using ClashCalculator.Common.Enum;
 
 namespace ClashCalculator.Domain.Abstract
 {

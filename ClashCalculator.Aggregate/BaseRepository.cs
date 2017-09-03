@@ -3,12 +3,12 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace ClashCalculator.Aggregate
+namespace ClashCalculator.Repository
 {
-    public abstract class BaseAggregate
+    public abstract class BaseRepository
     {
         protected readonly ClashCalculatorContext _dbContext;
-        protected BaseAggregate(ClashCalculatorContext context)
+        protected BaseRepository(ClashCalculatorContext context)
         {
             _dbContext = context;
         }

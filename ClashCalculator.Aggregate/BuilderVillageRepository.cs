@@ -6,11 +6,11 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace ClashCalculator.Aggregate
+namespace ClashCalculator.Repository
 {
-    public class BuilderVillageAggregate : BaseAggregate
+    public class BuilderVillageRepository : BaseRepository
     {
-        public BuilderVillageAggregate(ClashCalculatorContext context): base(context)
+        public BuilderVillageRepository(ClashCalculatorContext context): base(context)
         {
 
         }
